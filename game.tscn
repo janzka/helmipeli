@@ -42,3 +42,15 @@ polygon = PackedVector2Array(0.500001, -10.4378, 7, -7, 6, 6, -6, 5, -8.84492, -
 
 [node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
 texture = ExtResource("1_80nbo")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2(526, 548)
+metadata/_edit_group_ = true
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D2"]
+position = Vector2(-1.31731, 2.74519)
+scale = Vector2(6.63462, 6.49039)
+polygon = PackedVector2Array(0.500001, -10.4378, 7, -7, 6, 6, -6, 5, -8.84492, -9.82148)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2"]
+texture = ExtResource("1_80nbo")
