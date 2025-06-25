@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1750796474|3129082719';
+const CACHE_VERSION = '1750851057|296640961';
 /** @type {string} */
 const CACHE_PREFIX = 'HelmiPeli-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;

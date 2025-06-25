@@ -31,6 +31,8 @@ shape = SubResource("CircleShape2D_e2o6t")
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
 texture = ExtResource("1_80nbo")
 
+[node name="Camera2D" type="Camera2D" parent="Player"]
+
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(283, 536)
 metadata/_edit_group_ = true
